@@ -4,9 +4,149 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <script src="https://kit.fontawesome.com/5744ad0b75.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+    <title>Grid</title>
 </head>
 <body>
-    
+   <section class="header">
+       <div class="nav_container">
+           <div class="nav_links_left">
+               <a href="#"><b>Stimulus</b></a>
+            </div>
+            <div class="nav_links_right">
+               <a href="#">Home</a>
+               <a href="#">About me</a>
+               <a href="#">Experiences</a>
+               <a href="#">Testimonials</a>
+               <a href="#">Contact</a>
+            </div>
+       </div>
+       <section class="header_container">
+           <div class="image_left">
+               <img src="assets/media/home-img.jpg" alt="home">
+           </div>
+           <div class="text_container">
+               <div class="text_right">
+                   <p class="first">Welcome to my website</p><br><br>
+                   <p class="second">Hello, I am <b style="color: black;">Stimulus</b> currently based <br> in New York city.</p><br><br>
+                   <p class="third">Donec auctor When you leave an empty space between the track values, 
+                the grid lines are automatically <br>assigned positive and negative numbers. But you can 
+                choose to explicitly name the lines. <br> Note the bracket syntax for the line names.</p><br><br>
+               </div>
+               <button><b>Get Started</b></button>
+            </div>
+       </section>
+   </section>
+   <section class="content_container">
+    <div class="content_left">
+            <p class="first">Donec auctor</p>
+            <p class="second">Sed vulputate vitae diam quis bibendum</p>
+            <p class="third">Defines a grid template by referencing the names of the grid areas which are specified 
+            with the grid-area property. <br><br>
+            Repeating the name of a grid area causes the content to span those cells. A
+            period signifies an empty cell. The syntax itself provides a visualization 
+            of the structure of the grid.</p>
+    </div>
+    <div class="content_right">
+        <div class="image">
+            <img src="assets/media/about-img.jpg">
+        </div>
+        <div class="text">
+            <p class="head">My Skills</p>
+            <p class="head_desp">Photoshop, Html,Css, Web Design</p>
+            <p class="first"><b>Frontend Design</b></p>
+            <div class="progress_bar1">
+                <span style="width: 10%;"></span>
+            </div>
+            <div></div>
+        </div>
+    </div>
+   </section>
+   <section class="services_container">
+       <div class="services_left">
+           <div class="service_one">
+               <i class="fas fa-desktop"></i>
+                <p class="head">Interface Design</p>
+                <p class="intro">Defines a grid template by referencing the names of the grid areas which are specified 
+                with the grid-area property.</p>
+            </div>
+            <div class="service_two">
+                <i class="fab fa-telegram-plane"></i>
+                <p class="head">Media Strategy</p>
+                <p class="intro">Defines a grid template by referencing the names of the grid areas which are specified 
+                    with the grid-area property.</p>
+            </div>
+       </div>
+       <div class="services_right">
+        <div class="service_one">
+            <i class="far fa-calendar-alt"></i>
+             <p class="head">Mobile App</p>
+             <p class="intro">Defines a grid template by referencing the names of the grid areas which are specified 
+             with the grid-area property.</p>
+         </div>
+         <div class="service_two">
+            <i class="fab fa-css3-alt"></i>
+             <p class="head">Coding</p>
+             <p class="intro">Defines a grid template by referencing the names of the grid areas which are specified 
+                 with the grid-area property.</p>
+         </div>
+    </div>
+   </section>
+   <section class="work_container">
+       <div class="left">
+           <img src="assets/media/experience-img.jpg">
+       </div>
+       <div class="right">
+           <p class="head">My Experiences</p>
+           <p class="intro">Previous companies and my tasks</p>
+           <div class="one">
+               <i class="fas fa-laptop"></i>
+               <p class="pos">Graphic Designer</p>
+               <p class="date">2014 Jul-2015 Sep</p>
+               <p class="desp">Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+            </div>
+            <div class="two">
+                <i class="fas fa-laptop"></i>
+                <p class="pos">Web Designer</p>
+                <p class="date">2014 Jul-2015 Sep</p>
+                <p class="desp">Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+             </div>
+        </div>
+   </section>
+   <section class="study_container">
+       <div class="left">
+        <p class="head">My Education</p>
+        <p class="intro">In cursus orci non ipsum gravida dignissim</p>
+        <div class="one">
+            <i class="fas fa-laptop"></i>
+            <p class="pos">Master In design</p>
+            <p class="date">2014 Jul-2015 Sep</p>
+            <p class="desp">Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+         </div>
+         <div class="two">
+             <i class="fas fa-laptop"></i>
+             <p class="pos">Bachelor Of Arts</p>
+             <p class="date">2014 Jul-2015 Sep</p>
+             <p class="desp">Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+          </div>
+       </div>
+       <div class="right">
+           <img src="assets/media/education-img.jpg">
+       </div>
+   </section>
+   <section class="contact_container">
+       <div class="form">
+            <p class="head"> Say Hello..</p>
+            <P class="intro"> Lorem ipsum dolor sit, amet consectetur adipisicing elit.</P>
+       </div>
+            <form>
+                <input type="text" placeholder="Your Name">
+                <input type="password" placeholder="Your Email">
+                <textarea name="message" cols="20" rows="5" placeholder="Write Your Message"></textarea>
+            </form>
+       <div class="contact_info"></div>
+   </section>
 </body>
 </html>
